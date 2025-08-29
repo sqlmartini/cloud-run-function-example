@@ -1,0 +1,4 @@
+# requirements.txt
+functions-framework==3.*
+requests>=2.20.0,<3.0.0
+google-cloud-storage>=2.5.0,<3.0.0
