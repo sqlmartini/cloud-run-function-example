@@ -1,8 +1,8 @@
 ### 1. Function Code (`main.py`)
-First, here is the Python code for your function. This file fetches configuration from environment variables, calls the external API, and uploads the result to a GCS bucket.
+This file fetches configuration from environment variables, calls the external API, and uploads the result to a GCS bucket.
 
 ### 2. Dependencies (`requirements.txt`)
-Create a `requirements.txt` file in the same directory as `main.py` to specify the function's dependencies.
+The file `requirements.txt` should reside in the same directory as `main.py` to specify the function's dependencies.
 
 ### 3. Deployment to Cloud Run
 You can deploy this function directly to Cloud Run, which will provide a scalable, serverless HTTP endpoint.
